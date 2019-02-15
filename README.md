@@ -9,3 +9,4 @@
 | 146 | LRU Cache | Scala | Hard |
 | 149 | Max Points on a Line | Scala | Hard |
 | 151 | Reverse Words in a String | Java | Medium |
+| 189 | Rotate Array | Java | Easy | 
