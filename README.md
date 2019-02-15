@@ -14,3 +14,5 @@
 | 20 | Valid Parentheses | Scala | Easy |
 | 200 | Number of Islands | Java | Medium |
 | 217 | Contains Duplicate | Java | Easy |
+| 257 | Binary Tree Paths | Scala | Easy |
+| 26 | Remove Duplicates from Sorted Array | Java | Easy |
