@@ -10,3 +10,5 @@
 | 149 | Max Points on a Line | Scala | Hard |
 | 151 | Reverse Words in a String | Java | Medium |
 | 189 | Rotate Array | Java | Easy | 
+| 198 | House Robber | Java | Easy |
+| 20 | Valid Parentheses | Scala | Easy |
