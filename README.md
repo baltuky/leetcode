@@ -12,3 +12,4 @@
 | 189 | Rotate Array | Java | Easy | 
 | 198 | House Robber | Java | Easy |
 | 20 | Valid Parentheses | Scala | Easy |
+| 200 | Number of Islands | Java | Medium |
