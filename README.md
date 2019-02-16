@@ -19,3 +19,4 @@
 | 297 | Serialize and Deserialize Binary Tree | Java, C | Hard |
 | 322 | Coin Change | Scala | Medium |
 | 44 | Wildcard Matching | Scala | Hard |
+| 56 | Merge Intervals | Java | Medium |
