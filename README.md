@@ -18,3 +18,4 @@
 | 26 | Remove Duplicates from Sorted Array | Java | Easy |
 | 297 | Serialize and Deserialize Binary Tree | Java, C | Hard |
 | 322 | Coin Change | Scala | Medium |
+| 44 | Wildcard Matching | Scala | Hard |
