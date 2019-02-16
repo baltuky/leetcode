@@ -21,4 +21,5 @@
 | 44 | Wildcard Matching | Scala | Hard |
 | 56 | Merge Intervals | Java | Medium |
 | 565 | Array Nesting | Scala | Medium |
-| 598 | Range Addition II | Scala | Medium |
+| 598 | Range Addition II | Scala | Easy |
+| 599 | Minimum Index Sum of Two Lists | Scala | Easy |
