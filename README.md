@@ -26,3 +26,4 @@
 | 695 | Max Area of Island | Java | Medium |
 | 717 | 1-bit and 2-bit Characters | Java | Easy |
 | 8 | String to Integer (atoi) | Scala | Medium |
+| 2 | Add Two Numbers | Java | Medium |
