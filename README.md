@@ -31,3 +31,4 @@
 | 19 | Remove Nth Node From End of List | Java | Medium |
 | 23 | Merge k Sorted Lists | Java | Hard |
 | 25 | Reverse Nodes in k-Group | Java | Hard |
+| 338 | Counting Bits | Java | Medium |
