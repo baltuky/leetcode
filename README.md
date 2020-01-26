@@ -33,3 +33,4 @@
 | 25 | Reverse Nodes in k-Group | Java | Hard |
 | 338 | Counting Bits | Java | Medium |
 | 213 | House Robber II | Java | Medium |
+| 1038 | Binary Search Tree to Greater Sum Tree | Java | Medium |
