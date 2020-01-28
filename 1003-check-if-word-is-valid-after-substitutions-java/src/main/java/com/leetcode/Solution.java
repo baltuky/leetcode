@@ -1,0 +1,71 @@
+package com.leetcode;
+
+import java.util.Stack;
+
+/**
+ * Title: 1003. Check If Word Is Valid After Substitutions
+ * Link: https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/
+ * Difficulty: Medium
+ * Solver: Yauheni Baltukha (baltuky)
+ * <p>
+ * We are given that the string "abc" is valid.
+ * <p>
+ * From any valid string V, we may split V into two pieces X and Y such that X + Y (X concatenated with Y) is equal to V.
+ * (X or Y may be empty.)  Then, X + "abc" + Y is also valid.
+ * <p>
+ * If for example S = "abc", then examples of valid strings are: "abc", "aabcbc", "abcabc", "abcabcababcc".
+ * Examples of invalid strings are: "abccba", "ab", "cababc", "bac".
+ * <p>
+ * Return true if and only if the given string S is valid.
+ * <p>
+ * Example 1:
+ * Input: "aabcbc"
+ * Output: true
+ * Explanation:
+ * We start with the valid string "abc".
+ * Then we can insert another "abc" between "a" and "bc", resulting in "a" + "abc" + "bc" which is "aabcbc".
+ * <p>
+ * Example 2:
+ * Input: "abcabcababcc"
+ * Output: true
+ * Explanation:
+ * "abcabcabc" is valid after consecutive insertings of "abc".
+ * Then we can insert "abc" before the last letter, resulting in "abcabcab" + "abc" + "c" which is "abcabcababcc".
+ * <p>
+ * Example 3:
+ * Input: "abccba"
+ * Output: false
+ * <p>
+ * Example 4:
+ * Input: "cababc"
+ * Output: false
+ * <p>
+ * Note:
+ * 1 <= S.length <= 20000
+ * S[i] is 'a', 'b', or 'c'
+ */
+
+public class Solution {
+    public boolean isValid(String s) {
+        if (s.isEmpty() || s.length() % 3 != 0)
+            return false;
+
+        final Stack<Integer> frames = new Stack<>();
+
+        for (char ch : s.toCharArray()) {
+            if (ch == 'a') {
+                frames.push(0);
+            } else if (ch == 'b' && (frames.isEmpty() || frames.peek() != 0)) {
+                return false;
+            } else if (ch == 'b') {
+                frames.push(frames.pop() + 1);
+            } else if (ch == 'c' && (frames.isEmpty() || frames.peek() != 1)) {
+                return false;
+            } else {
+                frames.pop();
+            }
+        }
+
+        return frames.isEmpty();
+    }
+}
