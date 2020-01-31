@@ -35,3 +35,4 @@
 | 213 | House Robber II | Java | Medium |
 | 1038 | Binary Search Tree to Greater Sum Tree | Java | Medium |
 | 1003 | Check If Word Is Valid After Substitutions | Java | Medium |
+| 64 | Minimum Path Sum | Java | Medium |
