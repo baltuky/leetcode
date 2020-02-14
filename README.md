@@ -37,3 +37,4 @@
 | 1003 | Check If Word Is Valid After Substitutions | Java | Medium |
 | 64 | Minimum Path Sum | Java | Medium |
 | 1233 | Remove Sub-Folders from the Filesystem | Java | Medium |
+| 139 | Word Break | Java | Medium |
